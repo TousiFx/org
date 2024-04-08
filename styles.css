@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    
+    background-image: url('image/background-1.jpg'); /* Path to your background image */
+    background-size: cover;
+}
+nav img {
+    height: 50px; /* Adjust height as needed */
+    margin-right: 20px; /* Add spacing between logo and menu */
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+header {
+      background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    height: 50px; /* Adjust height as needed */
+    margin-right: 20px; /* Add spacing between logo and menu */
+    padding: 0 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    nav img {
+        margin-right: 10px; /* Adjust as needed */
+    }
+}
+
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+section {
+    padding: 50px 0;
+}
+
+h2 {
+    margin-bottom: 40px;
+}
+.service-heading {
+    text-align: center;
+}
+
+.service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-item {
+    width: 30%; /* Adjust width as needed */
+    margin: 20px;
+    text-align: center;
+}
+
+.service img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.service h3,
+.service p {
+    margin: 0;
+}
+
+
+.featured-projects {
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-project {
+    flex-basis: calc(50% - 20px); /* Adjust width of each project */
+    text-align: center;
+}
+
+.featured-project img {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 0 10px;
+}
+
+.featured-project h3,
+.featured-project p {
+    margin: 0;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
